@@ -1,0 +1,161 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+}
+
+li {
+
+    float: left;
+}
+
+li a {
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:20px;
+
+}
+/* Change the link color to #111 (black) on hover */ 
+li a:hover {
+    background-color: #6E6E6E;
+}
+
+.headline{
+ font-family: Bookman Old Style;
+ font-size: 26px;
+ font-style: oblique;
+ 
+}
+
+p{
+align:justify;
+}
+.h{
+ font-family: Bookman Old Style;
+ font-size: 21px;
+ font-style: bold;
+}
+.h123{
+ font-family: Verdana;
+ font-size: 21px;
+}
+.type1{
+	margin-left:15px;
+	margin-right:5px;
+    width: 30%;
+    float: left;
+    padding: 15px;
+   background-color:#E52B50;
+	position: relative;
+    display: inline-block;
+}
+.type2{
+    width: 30%;
+	margin-right:5px;
+    float: left;
+    padding: 15px;
+  background-color:#E52B50;
+position: relative;
+    display: inline-block;
+}
+.type3{
+    width: 30%;
+	margin-right:5px;
+    float: left;
+    padding: 15px;
+  background-color:#E52B50;  
+position: relative;
+    display: inline-block;
+}
+.type11{
+	margin-left:15px;
+	margin-right:5px;
+    width: 30%;
+    float: left;
+    padding: 15px;
+   background-color:white;
+	
+}
+.type12{
+	margin-right:5px;
+    width: 30%;
+    float: left;
+    padding: 15px;
+   background-color:white;
+	position: relative;
+    display: inline-block;
+}
+.button {
+    background-color: #333; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 130px;
+    cursor: pointer;
+	/**margin-right:50px;**/
+	padding: 10px 24px;
+}
+
+a:link, a:visited {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.tab {
+    background-color: #333; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0px 0px;
+    cursor: pointer;
+	/**margin-right:50px;**/
+	padding: 10px 14px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #E52B50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 530px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+
+input[type=submit]:hover {
+    background-color:#E52B50 ;
+}
+div11{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
